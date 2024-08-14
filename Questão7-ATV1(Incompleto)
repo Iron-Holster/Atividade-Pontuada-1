@@ -17,22 +17,22 @@ programa {
     preco_coletivo = quantidade_produtos * preco_unid
     se(quantidade_produtos <= 5 e quantidade_produtos > 1){
     valor_final=preco_coletivo-desconto1  
-    escreva("Você recebeu um desconto de 2%")
+    escreva("VocÃª recebeu um desconto de 2%")
     }
 
     se(quantidade_produtos > 5 e quantidade_produtos<= 10){
     valor_final = preco_coletivo-desconto2  
-    escreva("Você recebeu um desconto de 3%")
+    escreva("VocÃª recebeu um desconto de 3%")
     }
 
     se(quantidade_produtos > 10){
     valor_final = preco_coletivo-desconto3    
-    escreva("Você recebeu um desconto de 5%")
+    escreva("VocÃª recebeu um desconto de 5%")
     }
     
     //RESULTADO
     
-    escreva("\nO valor final será: R$ ", valor_final)
+    escreva("\nO valor final serÃ¡: R$ ", valor_final)
    
   }
 }
