@@ -5,17 +5,17 @@ programa {
     real num_soma1, num_soma2, soma_resultado, num_subtra1, num_subtra2, subtra_resultado, num_mult1, num_mult2, mult_resultado, num_divi1, num_divi2, divi_resultado
     //PEDINDO DADOS
     escreva("== CALCULADORA ==")
-    escreva("\nSelecione entre as operaÁıes usando seu simbolo correspondente: Soma(+), SubtraÁ„o(-), MultiplicaÁ„o(x) ou Divis„o(/)")
-    escreva("\nInsira a operaÁ„o desejada: ")
+    escreva("\nSelecione entre as opera√ß√µes usando seu simbolo correspondente: Soma(+), Subtra√ß√£o(-), Multiplica√ß√£o(x) ou Divis√£o(/)")
+    escreva("\nInsira a opera√ß√£o desejada: ")
     leia(operacao)
 
     se( operacao == "+"){
       //DADOS SOMA
       limpa()
       escreva("== SOMA ==")
-      escreva("\nPrimeiro n˙mero: ")
+      escreva("\nPrimeiro n√∫mero: ")
       leia(num_soma1)
-      escreva("Segundo n˙mero: ")
+      escreva("Segundo n√∫mero: ")
       leia(num_soma2)
       
       //RESULTADO SOMA
@@ -24,45 +24,45 @@ programa {
       
     }
     se(operacao == "-"){
-      //DADOS SUBTRA«√O
+      //DADOS SUBTRA√á√ÉO
       limpa()
-      escreva("== SUBTRA«√O ==")
-      escreva("\nPrimeiro n˙mero: ")
+      escreva("== SUBTRA√á√ÉO ==")
+      escreva("\nPrimeiro n√∫mero: ")
       leia(num_subtra1)
-      escreva("Segundo n˙mero: ")
+      escreva("Segundo n√∫mero: ")
       leia(num_subtra2)
       
-      //RESULTADO SUBTRA«√O
+      //RESULTADO SUBTRA√á√ÉO
       subtra_resultado = num_subtra1 - num_subtra2
       escreva(num_subtra1," - ",num_subtra2 ," = ", subtra_resultado)
 
     }
     se(operacao == "*"){
-      //DADOS MULTIPLICA«√O
+      //DADOS MULTIPLICA√á√ÉO
       limpa()
-      escreva("== MULTIPLICA«√O ==")
-      escreva("\nPrimeiro n˙mero: ")
+      escreva("== MULTIPLICA√á√ÉO ==")
+      escreva("\nPrimeiro n√∫mero: ")
       leia(num_mult1)
-      escreva("Segundo n˙mero: ")
+      escreva("Segundo n√∫mero: ")
       leia(num_mult2)
       
-      //RESULTADO MULTIPLICA«√O
+      //RESULTADO MULTIPLICA√á√ÉO
       mult_resultado = num_mult1 * num_mult2 
       escreva(num_mult1," x ",num_mult2 ," = ", mult_resultado)
 
     }
     se(operacao == "/"){
-      //DADOS DIVIS√O
+      //DADOS DIVIS√ÉO
       limpa()
-      escreva("== DIVIS√O ==")
+      escreva("== DIVIS√ÉO ==")
       escreva("\nDivisor: ")
       leia(num_divi1)
       escreva("Dividendo: ")
       leia(num_divi2)
       
-      //RESULTADO DIVIS√O
+      //RESULTADO DIVIS√ÉO
       divi_resultado = num_divi2 / num_divi1 
-      escreva(num_divi1," ˜ ",num_divi2 ," = ",divi_resultado)
+      escreva(num_divi1," √∑ ",num_divi2 ," = ",divi_resultado)
 
     }
   }
