@@ -6,10 +6,10 @@ funcao inicio()
 //VARIAVEIS
 inteiro num1, num2, num_resultado
 //Pedindo dados
-escreva("==INSIRA 2 NÚMEROS INTEIROS==")
-escreva("\nPrimeiro número: ")
+escreva("==INSIRA 2 NÃšMEROS INTEIROS==")
+escreva("\nPrimeiro nÃºmero: ")
 leia(num1)
-escreva("\nSegundo número: ")
+escreva("\nSegundo nÃºmero: ")
 leia(num2)
 
 //Calculando
