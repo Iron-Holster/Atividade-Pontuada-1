@@ -3,7 +3,7 @@ programa {
     //Variaveis
     real nota1, nota2, media
     //Pedindo dados
-    escreva("==CALCULE SUA MÉDIA ESCOLAR==")
+    escreva("==CALCULE SUA MÃ‰DIA ESCOLAR==")
     escreva("\nInsira a primeira nota:")
     leia(nota1)
     escreva("Insira a segunda nota:")
@@ -13,16 +13,16 @@ programa {
 
     //Resultados
     escreva("== RESULTADO ==")
-    escreva("\nSua média é: ", media)
+    escreva("\nSua mÃ©dia Ã©: ", media)
     se(media >= 6.0){
-    escreva("\n- PARABÉNS!! -")
+    escreva("\n- PARABÃ‰NS!! -")
     escreva("\nO aluno foi APROVADO")
     }
     se(media >= 4.0 e media < 6.0){
-    escreva("\nO aluno está em RECUPERAÇÃO")
+    escreva("\nO aluno estÃ¡ em RECUPERAÃ‡ÃƒO")
     }
     se(media < 4.0){
-    escreva("\nO aluno está REPROVADO")
+    escreva("\nO aluno estÃ¡ REPROVADO")
     }
   }
 }
