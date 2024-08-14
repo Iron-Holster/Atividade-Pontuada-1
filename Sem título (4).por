@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+    //Variaveis
+    real nota1, nota2, media
+    //Pedindo dados
+    escreva("==CALCULE SUA MÉDIA ESCOLAR==")
+    escreva("\nInsira a primeira nota:")
+    leia(nota1)
+    escreva("Insira a segunda nota:")
+    leia(nota2)
+    //Calculando
+    media=(nota1+nota2)/2
+
+    //Resultados
+    escreva("== RESULTADO ==")
+    escreva("\nSua média é: ", media)
+    se(media >= 6.0){
+    escreva("\n- PARABÉNS!! -")
+    escreva("\nO aluno foi APROVADO")
+    }
+    se(media >= 4.0 e media < 6.0){
+    escreva("\nO aluno está em RECUPERAÇÃO")
+    }
+    se(media < 4.0){
+    escreva("\nO aluno está REPROVADO")
+    }
+  }
+}
