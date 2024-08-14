@@ -8,11 +8,11 @@ programa {
     maca_preco=1.80
     
 		//Pedindo dados
-		escreva("==PROMO«√O!!==")
-		escreva("\n-Se na compra de Morangos ou MaÁ„s o peso ultrapassar 8Kg ou o valor de R$25.00 o cliente recebe 10% de desconto no valor final-")
-		escreva("\n(Ao escrever os gramas utilize ponto ao invÈs de virgula)")
+		escreva("==PROMO√á√ÉO!!==")
+		escreva("\n-Se na compra de Morangos ou Ma√ß√£s o peso ultrapassar 8Kg ou o valor de R$25.00 o cliente recebe 10% de desconto no valor final-")
+		escreva("\n(Ao escrever os gramas utilize ponto ao inv√©s de virgula)")
 
-		escreva("\nQuantos Kgs de MaÁ„ deseja comprar? ")
+		escreva("\nQuantos Kgs de Ma√ß√£ deseja comprar? ")
 		leia(kg_maca_cliente)
 		escreva("Quantos Kgs de Morango deseja comprar? ")
 		leia(kg_morango_cliente)
@@ -36,7 +36,7 @@ programa {
       preco_total= maca_total + morango_total
     }
     
-    escreva("\nPreÁo final a compra: R$ " + preco_total)
+    escreva("\nPre√ßo final a compra: R$ " + preco_total)
 		
 	}
 }
